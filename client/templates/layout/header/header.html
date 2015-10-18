@@ -1,0 +1,14 @@
+<template name="ceHeader">
+    <div class="container-fluid">
+        <div class="logo">
+            <img src="/images/logo.svg" />
+        </div>
+        <div class="nav" role="navigation">
+            <div class="row navbar-shop">
+                <div class="navbar-cart">{{> cartIcon}}</div>
+                <div class="cart-alert">{{> cartPanel}}</div>
+                <div class="navbar-accounts">{{> accounts tpl="loginDropdown"}}</div>
+            </div>
+        </div>
+    </div>
+</template>

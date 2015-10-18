@@ -16,6 +16,7 @@ Router.map(function route() {
       name: page
     });
   }
+
   return this.route("notFound", {
     path: "/(.*)"
   });
